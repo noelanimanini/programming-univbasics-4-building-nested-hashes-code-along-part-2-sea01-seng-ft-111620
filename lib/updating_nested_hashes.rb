@@ -43,11 +43,12 @@ def add_characters
          :heroine_friends => [
          {name: "Steven", age: "30", attitude: "confused"},
          {name: "Nurse", age: "44", attitude: "worried"}
-         ]
+       ]
       }
    }
    epic_tragedy[:additional_characters] = [
    { name: "Prince Escalus" },
    { name: "Apothecary" }
+ ]
    epic_tragedy
 end
